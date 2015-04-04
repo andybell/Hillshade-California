@@ -5,6 +5,7 @@ import webbrowser
 base_url = 'http://tdds3.cr.usgs.gov/Ortho9/ned/ned_13/float/'
 zip = '.zip'
 
+# list of tiles to pull. Format should be (northing, westing) 
 tiles = [(44,122)]
 
 for tile in tiles:
